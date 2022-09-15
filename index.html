@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人博客</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="icon" href="./images/webicon.ico" />
+    <link rel="stylesheet" href="./css/font_w4kw2sqlprf/iconfont.css" />
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- 博客大图开头 -->
+    <header>
+      <div class="nav">
+        <p class="nav-blog-intro">GimTsung's Blog</p>
+        <div class="nav-bars">
+          <a href="#" class="author">
+            <img src="./images/webicon.png" alt="my Blog's avator" />
+          </a>
+          <a href="./index.html">
+            <span class="iconfont icon-shouye">
+              <p>首页</p>
+            </span>
+          </a>
+          <a href="#">
+            <span class="iconfont icon-lishi">
+              <p>时间线</p>
+            </span>
+          </a>
+          <a href="#">
+            <span class="iconfont icon-gengduo">
+              <p>链接</p>
+            </span>
+          </a>
+          <a href="#">
+            <span class="iconfont icon-xinxi">
+              <p>评论区</p>
+            </span>
+          </a>
+          <a href="#">
+            <span class="iconfont icon-bianji">
+              <p>笔记</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="header-title-search">
+        <div class="avator-intro">
+          <img src="./images/webicon.png" alt="my avator" class="avator" />
+          <p class="intro">'hello,world!'</p>
+        </div>
+        <blockquote>“前端有70%的时间都在学习JavaScript”</blockquote>
+        <div class="midea">
+          <a href="javascript:;" class="wechat">
+            <span class="iconfont icon-weixin"></span>
+          </a>
+          <a
+            href="https://space.bilibili.com/436213909?spm_id_from=333.337.0.0"
+            target="_blank"
+          >
+            <span class="iconfont icon-bilibili"></span>
+          </a>
+          <a href="https://github.com/KimTson" target="_blank">
+            <span class="iconfont icon-github"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="next translate">
+        <a href="javascript:;">
+          <span class="iconfont icon-down"></span>
+        </a>
+      </div>
+      <div class="side-options">
+        <ul>
+          <li>
+            <a href="javascript:;" title="设置">
+              <span class="iconfont icon-shezhi"></span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;" title="讯息" class="side-message">
+              <span class="iconfont icon-xinxi"></span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;" title="返回顶部">
+              <span class="iconfont icon-fasong"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="day-night" title="深色模式">
+        <span class="iconfont icon-yejianmoshi"></span>
+      </div>
+
+      <!-- 弹出信息模块 -->
+      <div class="message">
+        <p>
+          <span>Message us</span>
+          <span class="iconfont icon-guanbi message-box-close"></span>
+        </p>
+        <div class="message-box"></div>
+        <div class="coment-box">
+          <textarea
+            name="coment"
+            style="resize: none"
+            placeholder="请输入讯息"
+          ></textarea>
+          <button>
+            <span class="iconfont icon-pinglun"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main>
+      <div class="heart">
+        <div class="left-heart">
+          <!-- 主页导航栏 -->
+          <div class="nav-bars main-nav-bars">
+            <a href="#" class="author">
+              <img src="./images/webicon.png" alt="my Blog's avator" />
+            </a>
+            <a href="./index.html">
+              <span class="iconfont icon-shouye">
+                <p>首页</p>
+              </span>
+            </a>
+            <a href="#">
+              <span class="iconfont icon-lishi">
+                <p>时间线</p>
+              </span>
+            </a>
+            <a href="#">
+              <span class="iconfont icon-gengduo">
+                <p>链接</p>
+              </span>
+            </a>
+            <a href="#">
+              <span class="iconfont icon-xinxi">
+                <p>评论区</p>
+              </span>
+            </a>
+            <a href="#">
+              <span class="iconfont icon-bianji">
+                <p>笔记</p>
+              </span>
+            </a>
+          </div>
+          <!-- 相册模块 -->
+          <div class="album">
+            <p>我的相册</p>
+            <div class="album-box-box">
+              <ul class="album-box"></ul>
+            </div>
+            <div class="points"></div>
+            <span class="left-change icon-left iconfont"></span>
+            <span class="right-change icon-right iconfont"></span>
+          </div>
+        </div>
+        <div class="right-heart">
+          <!-- 右侧人物介绍栏 -->
+          <div class="author-bar">
+            <img src="./images/webicon.png" alt="我的头像" />
+            <p class="name">GimTsung</p>
+            <p>我相信勤能补拙</p>
+            <button>发一条推文吧！</button>
+            <p>已写文章：</p>
+            <span class="article-sum">0</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="black-background">
+      <div class="wechat-click">
+        <span class="iconfont icon-guanbi scan-close"></span>
+        <img src="./images/wechatcard.png" alt="微信名片" />
+      </div>
+    </div>
+    <div class="background-night"></div>
+    <div class="day-night-title"></div>
+    <footer></footer>
+  </body>
+</html>
