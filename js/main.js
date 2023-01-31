@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let hideMenuIndex = ''
-    if (window.innerWidth <= 768) hideMenuIndex = true
+    if (window.innerWidth <= 819) hideMenuIndex = true
     else hideMenuIndex = headerContentWidth > $nav.offsetWidth - 120
 
     if (hideMenuIndex) {
