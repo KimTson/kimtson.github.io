@@ -116,11 +116,11 @@
 }
 
 /* 导航栏音乐 */
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   #nav-music {
     display: none !important;
   }
-}
+} */
 
 #nav-music {
   display: flex;
@@ -128,7 +128,7 @@
   z-index: 9;
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   cursor: pointer;
   transition: 0.5s;
   transform-origin: left bottom;
