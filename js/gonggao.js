@@ -127,7 +127,7 @@ $.ajax({
                             posdesc = "74751，长沙斯塔克。";
                             break;
                         case "广东省":
-                            posdesc = "你识唔识讲广东话？。";
+                            posdesc = "这是我的家乡，同我一齐讲广东话啦。";
                             break;
                         case "广西壮族自治区":
                             posdesc = "桂林山水甲天下。";
